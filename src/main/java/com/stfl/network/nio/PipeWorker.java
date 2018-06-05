@@ -155,6 +155,7 @@ public class PipeWorker implements Runnable {
                     // index 0 is always ss payload
                     logger.info("Connected to: " + Util.getRequestedHostInfo(sendData.get(0)));
                     //logger.info("Test: " + Util.bytesToString(temp, 0, temp.length));
+                    // TODO add random byte array 
                 }
                 else {
                     sendData.clear();
